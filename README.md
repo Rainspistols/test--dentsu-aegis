@@ -10,5 +10,4 @@
 
 ##### To run - npm start
 
-
 [Link to the project]()

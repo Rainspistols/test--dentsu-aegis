@@ -9,7 +9,7 @@ const Navigation = () => {
       <ul>
         {data.map((item, index) => (
           <li key={index}>
-            <Link to='/'>{item}</Link>
+            <Link to='/test--dentsu-aegis/'>{item}</Link>
           </li>
         ))}
       </ul>
