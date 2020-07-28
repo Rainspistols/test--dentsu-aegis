@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/test--dentsu-aegis/precache-manifest.fabcdf75c05a103feb14be6559351ca3.js"
+  "/test--dentsu-aegis/precache-manifest.7186df39b73514ccd9a0847b244f05b4.js"
 );
 
 self.addEventListener('message', (event) => {
