@@ -15,7 +15,7 @@ function App() {
       <GlobalStyles />
       <Router>
         <Switch>
-          <Route path='/test--dentsu-aegis/' exact>
+          <Route path='/test--dentsu-aegis/'>
             <Home />
           </Route>
         </Switch>

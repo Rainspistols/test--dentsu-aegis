@@ -11,6 +11,11 @@ const Hero = () => {
 
 const HeroStyled = styled.section`
   ${({ theme }) => theme.layoutStyles(30)};
+  
+  h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
 `;
 
 export default Hero;

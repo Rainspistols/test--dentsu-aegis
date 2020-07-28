@@ -23,11 +23,22 @@ const NavigationStyled = styled.nav`
     flex-wrap: wrap;
   }
   li {
-    flex-grow: 1;
+    margin-bottom: 20px;
     ${({ theme }) => theme.layoutStyles(20)};
+    width: 48%;
+  }
 
-    &:not(:last-of-type) {
-      margin-right: 30px;
+  ${({ theme }) => theme.media.tablet} {
+    li {
+      &:not(:last-of-type) {
+        margin-right: 30px;
+      }
+      width: auto;
+      flex-grow: 1;
+      margin-bottom: 0;
+    }
+
+    ul {
     }
   }
 `;
