@@ -4,7 +4,7 @@
 
 ### additional Tasks you can find in src/Tasks. Each of them has instruction, inside the file and provide a console.log for test.
 
-#### The last task with square you can find here [https://jsfiddle.net/m8far21d] (Square task)
+#### The last task with square you can find here [Square task] (https://jsfiddle.net/m8far21d)
 
 ##### To install - npm i
 
